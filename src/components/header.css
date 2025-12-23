@@ -55,3 +55,14 @@
     color: black;
     text-decoration: none;
 }
+
+
+@media(max-width: 768px){
+    .navbar-title{
+        font-size: 18px;
+    }
+
+    .navbar-item{
+        font-size: 14px;
+    }
+}
