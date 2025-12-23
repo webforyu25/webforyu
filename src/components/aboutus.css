@@ -1,0 +1,171 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.aboutus-background {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+
+    background-color: #0d0740;
+
+    display: flex;
+    box-sizing: border-box;
+    /*  center horizontal */
+    justify-content: center;
+    /* center vertical */
+    align-items: flex-start;
+
+}
+
+
+.aboutus-container {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+   padding-bottom: 80px;
+   padding-top: 30px;
+
+}
+
+.aboutus-title{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.aboutus-title h1{
+    size:30px;
+    margin-bottom: 10px;
+    color:#f1d47c;
+
+}
+
+.aboutus-title p{
+    margin-bottom:30px ;
+    size:30px;
+    color:#f1d47c;
+
+}
+
+
+.intro-container{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    position:relative;
+    background-color: #ecda9e;
+
+    margin-bottom: 20px;
+    width: 100%;
+
+    border-radius: 20px;
+    flex-direction: column;
+
+    
+
+
+}
+
+.intro-title{
+    position: relative;
+    padding: 10px 10px;
+
+
+}
+
+.intro-title p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+
+}
+
+.intro-para{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    display: flex;
+
+    padding: 10px 10px ;
+
+    flex-direction: row;
+    
+    
+    
+}
+
+.intro-para p{
+    font-size: 20px;
+    width: 100%;
+       margin-top: 0;
+}
+
+.intro-para a{
+    color: #0d0740;
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
+
+.intro-para a:hover{
+    color: #0d07403a;
+}
+
+.aboutus-photo{
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+.aboutus-photo img{
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px ;
+
+}
+
+
+/* mobile layout */
+
+@media (max-width: 900px) {
+
+   .intro-container{
+        flex-direction: column;
+    }
+
+    .intro-para{
+        flex-direction: column;
+    }
+
+    .aboutus-photo{
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .aboutus-photo img{
+        width: 80%;
+    }
+
+}

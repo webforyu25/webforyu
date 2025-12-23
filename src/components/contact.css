@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.contact-background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #0d0740;
+
+    display: flex;
+    box-sizing: border-box;
+    /*  center horizontal */
+    justify-content: center;
+    /* center vertical */
+    align-items: center;
+
+
+}
+
+
+.contact-container {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    display: flex;
+}
+
+.contact-title{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20%;
+    flex-direction: column;
+}
